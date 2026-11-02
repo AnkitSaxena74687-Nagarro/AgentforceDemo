@@ -1,36 +1,370 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Loan Advisor</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, minimum-scale=1">
+<title>Chitransh Finance | Smart Loans for Every Dream</title>
 
+https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f8fc;
+    color:#333;
+}
+
+header{
+    background:#072f5f;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    background:linear-gradient(135deg,#072f5f,#1261a0);
+    color:white;
+}
+
+.hero-content{
+    max-width:650px;
+}
+
+.hero h1{
+    font-size:58px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#f7b500;
+    color:#072f5f;
+    padding:15px 35px;
+    border-radius:35px;
+    text-decoration:none;
+    font-weight:600;
+    display:inline-block;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.hero-image img{
+    width:500px;
+    max-width:100%;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    color:#072f5f;
+    font-size:40px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#072f5f;
+    margin-bottom:15px;
+}
+
+.stats{
+    background:#072f5f;
+    color:white;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    text-align:center;
+}
+
+.stats h2{
+    font-size:48px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.feature{
+    background:white;
+    border-left:5px solid #f7b500;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.cta{
+    text-align:center;
+    color:white;
+    background:linear-gradient(135deg,#1261a0,#072f5f);
+    border-radius:20px;
+}
+
+.cta h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#072f5f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:900px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero-image{
+    margin-top:40px;
+}
+}
+</style>
 </head>
+
 <body>
 
-    <h1>Welcome to Loan Advisor</h1>
-    <p>Ask me about loan eligibility, interest rates, required documents, and offers.</p>
+<header>
+    <div class="logo">Chitransh Finance</div>
 
-<script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+    <nav>
+        #Home</a>
+        #Loans</a>
+        #Services</a>
+        #Contact</a>
+    </nav>
+</header>
 
-			embeddedservice_bootstrap.init(
-				'00Dak00001M1QOH',
-				'Loan_Advisor_Web_V2',
-				'https://orgfarm-ae80df4134-dev-ed.develop.my.site.com/ESWLoanAdvisorW1793645065888',
-				{
-					scrt2URL: 'https://orgfarm-ae80df4134-dev-ed.develop.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
+<section class="hero">
+
+    <div class="hero-content">
+        <h1>Turning Dreams Into Reality Through Smarter Financing</h1>
+
+        <p>
+            Home Loans, Car Loans, Personal Loans, Education Loans and Business Financing
+            with competitive interest rates and fast approvals.
+        </p>
+
+        #Check Eligibility</a>
+    </div>
+
+    <div class="hero-image">
+        https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1000
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Our Loan Solutions</h2>
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>🏠 Home Loan</h3>
+            <p>Affordable interest rates and flexible repayment options.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚗 Car Loan</h3>
+            <p>Quick approvals to help you drive your dream vehicle home.</p>
+        </div>
+
+        <div class="card">
+            <h3>💼 Business Loan</h3>
+            <p>Funding solutions for startups and established businesses.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎓 Education Loan</h3>
+            <p>Helping students achieve their academic goals worldwide.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div>
+        <h2>10K+</h2>
+        <p>Happy Customers</p>
+    </div>
+
+    <div>
+        <h2>₹500Cr+</h2>
+        <p>Loans Disbursed</p>
+    </div>
+
+    <div>
+        <h2>15+</h2>
+        <p>Years Experience</p>
+    </div>
+
+    <div>
+        <h2>98%</h2>
+        <p>Customer Satisfaction</p>
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Why Choose Chitransh Finance?</h2>
+    </div>
+
+    <div class="why">
+
+        <div class="feature">
+            <h3>Fast Approval</h3>
+            <p>Get loan decisions in hours, not weeks.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Best Rates</h3>
+            <p>Competitive interest rates for every customer profile.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Transparent Process</h3>
+            <p>No hidden charges and no surprises.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Dedicated Support</h3>
+            <p>Professional financial advisors available throughout the journey.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <h2>Need Help Choosing the Right Loan?</h2>
+
+    <p style="margin-bottom:30px;">
+        Use our AI-powered Loan Advisor available in the bottom-right corner.
+    </p>
+
+    #Explore Loans</a>
+
+</section>
+
+<section class="contact">
+
+    <h2>Contact Us</h2>
+
+    <br>
+
+    <p>📞 +91 98765 43210</p>
+    <p>📧 support@chitranshfinance.com</p>
+    <p>📍 Noida, Uttar Pradesh, India</p>
+
+</section>
+
+<footer>
+    © 2026 Chitransh Finance. All Rights Reserved.
+</footer>
+
+<!-- SALESFORCE EMBEDDED MESSAGING -->
+
+<script type="text/javascript">
+function initEmbeddedMessaging() {
+    try {
+        embeddedservice_bootstrap.settings.language = 'en_US';
+
+        embeddedservice_bootstrap.init(
+            '00Dak00001M1QOH',
+            'Loan_Advisor_Web_V2',
+            'https://orgfarm-ae80df4134-dev-ed.develop.my.site.com/ESWLoanAdvisorW1793645065888',
+            {
+                scrt2URL: 'https://orgfarm-ae80df4134-dev-ed.develop.my.salesforce-scrt.com'
+            }
+        );
+    } catch (err) {
+        console.error('Error loading Embedded Messaging: ', err);
+    }
+}
 </script>
-<script type='text/javascript' src='https://orgfarm-ae80df4134-dev-ed.develop.my.site.com/ESWLoanAdvisorW1793645065888/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+<script
+    type="text/javascript"
+    src="https://orgfarm-ae80df4134-dev-ed.develop.my.site.com/ESWLoanAdvisorW1793645065888/assets/js/bootstrap.min.js"
+    onload="initEmbeddedMessaging()">
+</script>
 
 </body>
 </html>
